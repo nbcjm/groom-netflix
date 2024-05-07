@@ -4,6 +4,7 @@
     flex-direction: row;
     padding: 16px 40px;
     position: absolute;
+    z-index: 999;
 }
 
 .netflix-navbar__logo {

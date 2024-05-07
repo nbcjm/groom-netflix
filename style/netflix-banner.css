@@ -1,18 +1,66 @@
 .netflix-banner {
+    display: flex;
     flex: 1 1 0;
     background-image: url("../assets/img/banner.jpg");
     height: 300px;
-    display: flex;
     flex-direction: column;
     justify-content: center;
+    position: relative;
+    color: white;
+    padding: 100px 50px;
 }
 
 .netflix-banner:after {
     content: ' ';
-    ;
-    backdrop-filter: blur(10px);
+    width: 100%;
+    height: 20%;
+    backdrop-filter: blur(2px);
+    bottom: 0;
+    left: 0;
+    position: absolute;
 }
 
 .netflix-banner-intro {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    flex: 1 1 0;
+    justify-content: center;
+}
 
+.netflix-banner-intro__title {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.netflix-banner-intro__action {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.netflix-banner-intro__action-button {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 8px 32px;
+    border-radius: 2px;
+    transition: background-color, 500ms;
+    cursor: pointer;
+}
+
+.netflix-banner-intro__action-button:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: background-color, 500ms;
+}
+
+.netflix-banner-intro__description {
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-decoration: none;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 400px;
+    max-width: 400px;
 }
