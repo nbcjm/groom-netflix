@@ -33,7 +33,7 @@
     font-weight: 800;
 }
 
-.netflix-banner-intro__action {
+.netflix-banner-intro__action-group {
     display: flex;
     flex-direction: row;
     gap: 8px;
