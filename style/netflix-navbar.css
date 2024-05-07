@@ -1,0 +1,12 @@
+.netflix-navbar {
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: row;
+    padding: 16px 40px;
+    position: absolute;
+}
+
+.netflix-navbar__logo {
+    width: 120px;
+    cursor: pointer;
+}

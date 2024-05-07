@@ -1,0 +1,18 @@
+.netflix-banner {
+    flex: 1 1 0;
+    background-image: url("../assets/img/banner.jpg");
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.netflix-banner:after {
+    content: ' ';
+    ;
+    backdrop-filter: blur(10px);
+}
+
+.netflix-banner-intro {
+
+}
