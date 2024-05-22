@@ -1,0 +1,31 @@
+.netflix-body {
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 64px;
+}
+
+.netflix-body__container {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.netflix-body__row {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.netflix-body__item {
+    flex: 1 1 0;
+    max-width: 210px;
+    object-fit: fill;
+
+    transition: transform 450ms;
+}
+
+.netflix-body__item:hover {
+    transform: scale(1.1);
+}

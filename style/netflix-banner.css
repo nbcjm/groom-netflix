@@ -1,6 +1,5 @@
 .netflix-banner {
     display: flex;
-    flex: 1 1 0;
     background-image: url("../assets/img/banner.jpg");
     height: 300px;
     flex-direction: column;
@@ -14,7 +13,7 @@
     content: ' ';
     width: 100%;
     height: 20%;
-    backdrop-filter: blur(2px);
+    background: linear-gradient(180deg,rgba(0,0,0,0), #111111 100%);
     bottom: 0;
     left: 0;
     position: absolute;
